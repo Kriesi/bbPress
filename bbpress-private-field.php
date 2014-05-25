@@ -2,7 +2,7 @@
 /*
 Plugin Name: bbPress Private Field
 Plugin URL: https://github.com/vatoyiit/bbPress
-Description: Allows users to add private field to their replies which only the original poster and admins can see
+Description: Allows users to add private field to their replies
 Version: 1.0
 Author: Yigit @ Kriesi.at
 Author URI: http://kriesi.at
