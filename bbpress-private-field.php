@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: bbPress Private Field
-Plugin URL: #
+Plugin URL: https://github.com/vatoyiit/bbPress
 Description: Allows users to add private field to their replies which only the original poster and admins can see
 Version: 1.0
 Author: Yigit @ Kriesi.at
@@ -39,7 +39,6 @@ Author URI: http://kriesi.at
 		$value 		  = get_post_meta( $reply_id, 'bbp_preply_field', true);
 		$current_user = wp_get_current_user();
 		$topic_author = bbp_get_topic_author_id();
-		$reply_author = bbp_get_reply_author_id( $reply_id );
 		if( $topic_author == $current_user->ID or current_user_can( 'moderate' )) {
 			echo "<div class='bbp_preply_field' style='color: #888;'>".$value."</div>";
 		}
